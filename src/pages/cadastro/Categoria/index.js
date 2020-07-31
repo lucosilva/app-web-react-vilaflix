@@ -1,38 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import PageDefault from '../../../components/PageDefault';
 import { Link } from 'react-router-dom';
 import Button from '../../../components/Button';
 import FormField from '../../../components/FormField';
 
-function CadastroCategoria() {
+function useForm(valueInit) {
 
     const [categorias, setCategorias] = useState([])
-    const [value, setValue] = useState({
-        name: "",
-        description: "",
-        color: "#000"
-    });
+    const [dataForm, setDataForm] = useState(valueInit);
+
 
     function handleChange(key, newValue) {
         console.log("atualizou")
-        setValue({
-            ...value,
+        setDataForm({
+            ...dataForm,
             [key]: newValue
         });
     }
 
-    function handleCadastro(e) {
+    function handleRegister(e) {
         e.preventDefault();
         setCategorias([
             ...categorias,
-            value
+            dataForm
         ]);
-        setValue({
-            name: "",
+        setDataForm({
+            title: "",
             description: "",
             color: "#000"
         });
     }
+
+
     function handleDelete(e, pos) {
         e.preventDefault();
         const listLocal = [...categorias];
@@ -40,20 +39,48 @@ function CadastroCategoria() {
 
         setCategorias(listLocal);
     }
+
+    return { handleChange, handleRegister, handleDelete, setCategorias, setDataForm, dataForm, categorias }
+
+}
+
+
+function CadastroCategoria() {
+
+    const valueInit = {
+        title: "",
+        description: "",
+        color: "#000"
+    }
+    const { handleChange, handleRegister, handleDelete, setCategorias, dataForm, categorias } = useForm(valueInit);
+
+    useEffect(() => {
+
+        let URL = 'http://localhost:3333/categorias/';
+        fetch(URL)
+            .then(async (dataServer) => {
+                const resposta = await dataServer.json();
+                console.log(resposta)
+                setCategorias([
+                    ...resposta,
+                ]);
+            });
+    }, [])
+
     return (
         <>
             <PageDefault>
-                <h1>Cadastro de Categoria:  {value.name}</h1>
+                <h1>Cadastro de Categoria:  {dataForm.title}</h1>
 
-                <form onSubmit={handleCadastro}>
+                <form onSubmit={handleRegister}>
 
                     <FormField
                         as="input"
                         label="Nome da Categoria"
                         type="text"
-                        value={value.name}
+                        value={dataForm.title}
                         onChange={(event) => {
-                            handleChange('name', event.target.value);
+                            handleChange('title', event.target.value);
                         }}
                     />
 
@@ -61,7 +88,7 @@ function CadastroCategoria() {
                         as="textarea"
                         label="Descrição"
                         type="text"
-                        value={value.description}
+                        value={dataForm.description}
 
                         onChange={(event) => {
                             handleChange('description', event.target.value);
@@ -72,7 +99,7 @@ function CadastroCategoria() {
                         as="input"
                         label="Cor"
                         type="color"
-                        value={value.color}
+                        value={dataForm.color}
                         onChange={(event) => {
                             handleChange('color', event.target.value);
                         }}
@@ -80,7 +107,7 @@ function CadastroCategoria() {
 
                     <ul>
                         {categorias.map((value, indice) => {
-                            return <li key={indice}>{value.name} | {value.description} | {value.color} <span> | <Button as="a" style={{ "padding": "5px 24px" }} onClick={(e) => { handleDelete(e, indice) }}>remover</Button></span></li>
+                            return <li key={value.id}>{value.title} | {value.description} | {value.color} <span> | <Button as="a" style={{ "padding": "5px 24px" }} onClick={(e) => { handleDelete(e, value.id) }}>remover</Button></span></li>
                         })}
                     </ul>
 

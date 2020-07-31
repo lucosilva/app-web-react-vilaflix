@@ -48,26 +48,28 @@ function CadastroCategoria() {
                 <form onSubmit={handleCadastro}>
 
                     <FormField
+                        as="input"
                         label="Nome da Categoria"
                         type="text"
                         value={value.name}
-                        placeholder="digite a categoria"
                         onChange={(event) => {
                             handleChange('name', event.target.value);
                         }}
                     />
 
                     <FormField
+                        as="textarea"
                         label="Descrição"
                         type="text"
                         value={value.description}
-                        placeholder="digite a  descrição da categoria"
+
                         onChange={(event) => {
                             handleChange('description', event.target.value);
                         }}
                     />
 
                     <FormField
+                        as="input"
                         label="Cor"
                         type="color"
                         value={value.color}
@@ -82,9 +84,9 @@ function CadastroCategoria() {
                         })}
                     </ul>
 
-                    <button>
+                    <Button>
                         Cadastrar
-                    </button>
+                    </Button>
                 </form>
 
                 <Link to="/">

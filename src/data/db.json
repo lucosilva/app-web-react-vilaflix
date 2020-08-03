@@ -1,10 +1,407 @@
 {
   "categorias": [
     {
+      "titulo": "temporada 1",
+      "descricao": "",
+      "cor": "#db4343",
+      "id": 1
+    },
+    {
+      "titulo": "temporada 2",
+      "descricao": "",
+      "cor": "#56f038",
+      "id": 2
+    },
+    {
+      "titulo": "temporada 3",
+      "descricao": "",
+      "cor": "#1a46f4",
+      "id": 3
+    },
+    {
+      "titulo": "temporada 4",
+      "descricao": "",
+      "cor": "#ece50e",
+      "id": 4
+    },
+    {
+      "titulo": "temporada 5",
+      "descricao": "",
+      "cor": "#000",
+      "id": 5
+    }
+  ],
+  "videos": [
+    {
       "id": 1,
-      "title": "Front End",
-      "color": "#6BD1FF",
-      "description": "Formação de Front End na Alura"
+      "titulo": "Guerra é guerra (1975)",
+      "url": "https://www.youtube.com/watch?v=nZ39cHgTb4Q&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 2,
+      "titulo": "A mudinha de Chirimoia (1978)",
+      "url": "https://www.youtube.com/watch?v=msnnvI3zgOY&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=4",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 3,
+      "titulo": "O Show de Ioiôs (1974) ",
+      "url": "https://www.youtube.com/watch?v=Xu1Gg4GbjHc&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=5",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 4,
+      "titulo": "O castigo vem a cavalo (1976)",
+      "url": "https://www.youtube.com/watch?v=88Z7GSEe1x4&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=8",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 5,
+      "titulo": "Agenta zero zero seta (1973)",
+      "url": "https://www.youtube.com/watch?v=ISxQVQ1SN6I&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=9",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 6,
+      "titulo": "Os espiritos zombeteiros Parte 2 (1974)",
+      "url": "https://www.youtube.com/watch?v=E4yWj3P8y2o&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=10",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 7,
+      "titulo": " Os espiritos zombeteiros Parte 1 (1974)",
+      "url": "https://www.youtube.com/watch?v=1wEOIO1URu8&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=11",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 8,
+      "titulo": "O calo do Sr. Barriga (1974) ",
+      "url": "https://www.youtube.com/watch?v=g-MQB2Y1Muc&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=12",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 9,
+      "titulo": "Bombinhas são perigosas, ainda mais em mãos erradas (1976)",
+      "url": "https://www.youtube.com/watch?v=DJONTWT7gY4&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=14",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 10,
+      "titulo": "O Ladrão da Vila (1976)",
+      "url": "https://www.youtube.com/watch?v=DRdc3ef0Ws0&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=15",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 11,
+      "titulo": "Este Varal é meu! (1973)",
+      "url": "https://www.youtube.com/watch?v=WKpcljJg46s&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=17",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 12,
+      "titulo": "Os balões levam o Chaves (1972)",
+      "url": "https://www.youtube.com/watch?v=V3LoVVl4QyY&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=18",
+      "categoria": "temporada 1",
+      "categoriaId": 1
+    },
+    {
+      "id": 13,
+      "titulo": "A máquina fotografica - Parte 1(1977)",
+      "url": "https://www.youtube.com/watch?v=FxHG27DM0rc&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=20",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 14,
+      "titulo": "Tempestade em balde d'agua (1974)",
+      "url": "https://www.youtube.com/watch?v=X6Bbgv4qSrQ&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=21",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 15,
+      "titulo": "Era uma vez, um gato... Parte 2 (1975)",
+      "url": "https://www.youtube.com/watch?v=FiErKDTzkNE&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=22",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 16,
+      "titulo": "A Fonte dos Desejos (1975) ",
+      "url": "https://www.youtube.com/watch?v=dYoEs70aW8I&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=24",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 17,
+      "titulo": "As apostas (1973)",
+      "url": "https://www.youtube.com/watch?v=bFejTJPYmrI&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=26",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 18,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=lygTEX_9Xow&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=27",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 19,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=b7SNNc6I3ns&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=35",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 20,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=rt4PObrKjhU&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=40",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 21,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=YslWHrHWGYg&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=44",
+      "categoria": "temporada 2",
+      "categoriaId": 2
+    },
+    {
+      "id": 22,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=gjx_XdmE7dc&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=47",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 23,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=ifsMRWQVwkU&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=49",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 24,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=U5JrCxy3Lvg&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=51",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 25,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=t9Ymcqe2V4U&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=53",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 26,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=iuN_NFqIXNk&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=63",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 27,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=CKyfNLE3ZkY&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=64",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 28,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=kr95ExdLTPg&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=65",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 29,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=4PAkFXjsMrI&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=67",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 30,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=wp-v7bP76dU&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=69",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 31,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=EWoRALy0U70&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=71",
+      "categoria": "temporada 3",
+      "categoriaId": 3
+    },
+    {
+      "id": 32,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=E1QSmD0okrU&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=72",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 33,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=ODnzZa7mcfE&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=74",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 34,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=RRrQ2zm-px8&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=75",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 35,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=h8s4NtgRF0s&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=82",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 36,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=xj17tQARHaI&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=85",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 37,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=IC9bcKJSEaQ&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=89",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 38,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=3iCdYbeeq1Q&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=90",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 39,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=Zqf5hH_IeMQ&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=91",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 40,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=ltt5Z_PW2Lw&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=93",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 41,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=MxqEbD12g5g&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=96",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 42,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=O65BJE-8ufc&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=97",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 43,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=6tLFzUBR538&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=98",
+      "categoria": "temporada 4",
+      "categoriaId": 4
+    },
+    {
+      "id": 44,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=OBSJiP05u5Y&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=99",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 45,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=pVqDgU0v84E&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=101",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 46,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=HtnlA0rAcog&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=102",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 47,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=_GIpGOp6L2c&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=103",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 48,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=110gv-wzIzs&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=104",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 49,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=SZuv4kIXItI&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=105",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 50,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=ToIkJ7_nprU&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=106",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 51,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=UoHFfvv4LWI&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=111",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 52,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=BdxR9wJvSjo&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=112",
+      "categoria": "temporada 5",
+      "categoriaId": 5
+    },
+    {
+      "id": 53,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=YPZ92s8bHOk&list=PLGySmERhTVkw4ZsttuUURGs9PpHg85H1x&index=113",
+      "categoria": "temporada 5",
+      "categoriaId": 5
     }
   ]
 }

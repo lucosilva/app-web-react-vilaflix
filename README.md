@@ -1,5 +1,6 @@
-![Untitled_ Aug 2, 2020 9_47 PM](https://user-images.githubusercontent.com/59120094/89136782-c84bf880-d50b-11ea-8562-93c967d6ce24.gif)
-
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/59120094/89136782-c84bf880-d50b-11ea-8562-93c967d6ce24.gif">
+</p>
 Este projeto é uma releitura do front da Netflix, feito em React.js - temático no programa do chaves feito na Imersão Alura.
 
 

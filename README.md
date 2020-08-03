@@ -1,20 +1,18 @@
 ![Untitled_ Aug 2, 2020 9_47 PM](https://user-images.githubusercontent.com/59120094/89136782-c84bf880-d50b-11ea-8562-93c967d6ce24.gif)
 
+Este projeto é uma releitura do front da Netflix, feito em React.js - temático no programa do chaves feito na Imersão Alura.
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+##  Scripts Importantes
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
+Para rodar o app em desenvolvimento no mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `yarn server`
+
+Para rodar o server do server-json no mode.<br /><br /><br />
 
 ### `yarn test`
 
